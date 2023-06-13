@@ -9,8 +9,15 @@
     "axios": "^1.4.0",
     "bootswatch": "^5.3.0",
     "formik": "^2.2.9",
+<<<<<<< HEAD
     "react-bootstrap": "^2.7.4",
     "react-router-dom": "^6.3.0",
+=======
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+>>>>>>> ee775c244079b70844945150c60a93469add37af
     "toastr": "^2.1.4",
     "web-vitals": "^2.1.4"
   },
@@ -37,10 +44,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
+=======
+>>>>>>> ee775c244079b70844945150c60a93469add37af
   }
 }
