@@ -22,10 +22,9 @@ function buildMessagem(titulo, mensagem, classe){
     toastr[classe](mensagem, titulo)
 }
 
-export function messageSuccess(mensagem){
+export function mensagemSucesso(mensagem){
     buildMessagem("Sucesso",mensagem,"success")
 }
-export function messageErro(mensagem){
+export function mensagemErro(mensagem){
     buildMessagem("Erro",mensagem,"error")
 }
-
