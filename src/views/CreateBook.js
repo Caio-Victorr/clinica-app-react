@@ -4,7 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import NavBar from "./NavBar";
 import Card from "./Card";
 import { saveBook } from "../services/LivroService";
-import { messageErro, messageSuccess } from "../utils/toastr";
+import { messageErro, messageSuccess } from "../utils/Toastr";
 import NavBarItem from "./NavBarItem";
 
 const CadastroLivro = () => {
