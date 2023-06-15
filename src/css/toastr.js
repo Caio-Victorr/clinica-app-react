@@ -1,11 +1,7 @@
 /*
  * Toastr
  * Copyright 2012-2015
-<<<<<<< HEAD
  * Authors: John Papa, Hans Fjällemark, and Tim Ferrell.
-=======
- * Authors: John Papa, Hans FjÃ¤llemark, and Tim Ferrell.
->>>>>>> ee775c244079b70844945150c60a93469add37af
  * All Rights Reserved.
  * Use, reproduction, distribution, and modification of this code is subject to the terms and
  * conditions of the MIT license, available at http://www.opensource.org/licenses/mit-license.php

@@ -4,44 +4,6 @@ import NavBar from './NavBar';
 import { Formik } from 'formik';
 
 
-
-
-let Login = {
-    email: '',
-    registration: '',
-    password: ''
-}
-let Curso = {
-    area: '',
-    name: ''
-}
-let contatos = {
-    email: '',
-    telephone: ''
-}
-
-
-let initialValues = {
-    period_course: '',
-    cpf: '',
-    name_user: '',
-    enumGender: '',
-    address: {
-
-    },
-    contactList: [
-        {
-
-        }
-    ],
-    login: {
-
-    },
-    course: {
-
-    }
-}
-
 const TelaFormulario = () => {
     //const [periodoCurso, setPeriodoCurso] = useState('');
     //const [cpf, setCpf] = useState('');
