@@ -3,7 +3,7 @@ import axios from "axios";
 import Card from "./Card";
 import NavBar from "./NavBar";
 import { useNavigate } from "react-router-dom";
-import { messagemSucesso, messagemErro } from "../utils/toastr";
+import { messagemSucesso, messageErro } from "../utils/toastr";
 
 export default function Login() {
 
@@ -24,7 +24,7 @@ export default function Login() {
         localStorage.setItem("email", JSON.stringify(response.data))
         navigate("/Home")
       })
-      .catch(erro => messagemErro("Usuario ou Senha Invalida"))
+      .catch(erro => messageErro("Usuario ou Senha Invalida"))
   }
   return (
     <div>
